@@ -80,359 +80,456 @@
 - Spring Boot
 
 # André Vieira da Silva
-## Tech Lead / Especialista Desenvolvedor | Senior Software Engineer
 
-**📍 Fortaleza, Ceará, Brasil** | **📞 +55 (85) 98951-6188** | **📧 sgavsnake@gmail.com**  
-**💼 LinkedIn:** [linkedin.com/in/andre-vieira-da-silva](https://www.linkedin.com/in/andre-vieira-da-silva) | **🔗 GitHub:** [github.com/engcomAndre](https://github.com/engcomAndre)
+**Tech Lead / Senior Software Engineer (Backend, Java/Kotlin)**
 
----
+## CONTATO
 
-## 🎯 Resumo Executivo
+- **Telefone:** +55 (85) 98951-6188
+- **Email:** sgavsnake@gmail.com
+- **LinkedIn:** [linkedin.com/in/andre-vieira-da-silva](https://linkedin.com/in/andre-vieira-da-silva)
+- **GitHub:** [github.com/engcomAndre](https://github.com/engcomAndre)
 
-Como Tech Lead, atuo na liderança técnica de equipes multidisciplinares, definição e implementação de arquiteturas escaláveis (microserviços, event-driven, cloud), governança de microsserviços, padronização tecnológica e implantação de soluções de alta disponibilidade e performance para instituições financeiras. Responsável por orientar decisões técnicas, garantir qualidade de código (TDD, code review), promover DevOps (CI/CD, observabilidade, automação de infraestrutura), além de realizar mentoria e desenvolvimento de times em ambientes ágeis (Scrum, Agile). Experiência comprovada como Backend e Full Stack Developer, Software Architect e API Designer, com forte atuação em APIs REST/gRPC, cloud computing, automação e práticas modernas de engenharia de software.
+## RESUMO PROFISSIONAL
 
-**Destaques:**
-- 🏆 Liderança técnica em sistemas críticos financeiros (Unicred, PagBank, PicPay, Banco Original)
-- 🚀 Otimização de **35% no tempo de atendimento** e **25% de aumento de performance**
-- 📊 Arquitetura Hexagonal profissionalmente implementada com **85%+ de cobertura de testes**
-- 🔧 Stack moderno: Kotlin, Java 21, Spring Boot 3.2.2, Kafka, Kubernetes, AWS
+Tech Lead e Senior Software Engineer com mais de 10 anos de experiência em arquitetura distribuída e microserviços. Especializado em Java, Kotlin, Spring Boot, Kafka, Kubernetes, AWS e GCP. Atuação em projetos financeiros críticos para PagBank, PicPay, Banco Original e Unicred. Liderança técnica de equipes multidisciplinares (time de até 10 pessoas) com foco em governança de microsserviços e implementação de arquiteturas escaláveis.
 
----
+## Principais Competências
 
-## 💼 Experiência Profissional
+- Liderança técnica de equipes multidisciplinares (time de até 10 pessoas)
+- Arquitetura de microserviços e sistemas distribuídos (**+90 serviços**) e desenho e implementação de solução considerando:
+  - Arquitetura Hexagonal (Ports and Adapters)
+  - Domain-Driven Design (DDD) e Clean Architecture
+  - APIs RESTful e gRPC
+  - Event-Driven Architecture e mensageria com Kafka (orquestração de **mais de 100 tópicos** e mensageria **da ordem de milhões**)
+  - Observabilidade (OpenTelemetry, Prometheus, Grafana, Dynatrace, NewRelic)
+  - CI/CD e DevOps
+- Testes automatizados e TDD (**85%+ cobertura**)
+- Kubernetes, Docker e orquestração de containers
+- AWS (EC2, S3, RDS, Lambda), GCP e Azure
 
-### Tech Lead / Especialista Desenvolvedor
-**Unicred do Brasil** | Abril 2025 - Presente | 📍 Remoto
+## EXPERIÊNCIA PROFISSIONAL
+
+### Tech Lead
+
+**Unicred do Brasil** | Abril 2025 - Presente | Remoto
 
 Liderança técnica dos sistemas de Cobrança e Emissão, com foco em governança de microsserviços e arquitetura distribuída.
 
-**Principais Realizações:**
-- ✅ Liderança técnica de equipes multidisciplinares
-- ✅ Governança de microsserviços e padronização arquitetural
-- ✅ Migração de serviços para Kubernetes
-- ✅ Implantação de observabilidade com OpenTelemetry, Grafana, Prometheus e Loki
-- ✅ Mentoria de desenvolvedores seniores e plenos
+#### Principais Responsabilidades
 
-**Projetos em Destaque:**
+- Governança de microsserviços e padronização arquitetural
+- Mentoria de desenvolvedores seniores, plenos e juniores
+- Code review e evolução técnica da equipe, controle de demandas em operações, definição técnica e refinamento, alinhamento com outros produtos e áreas
 
-**API de Instruções** (2025 - Atual)
+#### Projetos Principais
+
+**Migração de Serviços para Kubernetes (2025)**
+
+- Migração de serviços legados para Kubernetes em produção
+- Implementação de Helm Charts e Manifests para orquestração de containers
+- Padronização de deployment e configuração de recursos (CPU, memória, replicas)
+- Implementação de health checks, liveness e readiness probes
+- Configuração de ingress e service mesh para comunicação entre serviços
+- **Resultado:** Serviços migrados com sucesso para Kubernetes, melhorando escalabilidade, disponibilidade e facilitando gerenciamento de infraestrutura, possibilitou no produto com maior volume de serviços **+90**, diminuição de **25%** no tempo de deploy, novas ferramentas, diminuição de **15% a 30%** no dimensionamento de recursos, proveu mais métricas de saúde do ambiente
+
+**Implantação de Observabilidade, Resiliência e Monitoramento no Novo Core (2026)**
+
+- Implementação de observabilidade completa com OpenTelemetry, Prometheus, Grafana e Loki
+- Configuração de métricas customizadas e dashboards para monitoramento em tempo real
+- Implementação de padrões de resiliência (circuit breaker, retry, timeout, fallback)
+- Configuração de alertas e notificações para incidentes e degradação de performance
+- Rastreamento distribuído de requisições (distributed tracing) para diagnóstico de problemas
+- Implementação de logging estruturado e correlação de logs entre serviços
+- **Resultado:** Implementação de Rastreabilidade baseada em MDC, admissão segura de retry e DLQ em comunicação assíncrona além de correção de configurações em Kafka
+
+**API de Instruções (2025)**
+
 - Desenvolvimento e exposição de APIs REST para instruções sobre títulos
-- Operações: baixa, alteração de vencimento, alteração de dados do pagador
-- Stack: REST, Kafka, PostgreSQL
-- Resultado: APIs críticas em produção para gestão de títulos
+- Operações: baixa, alteração de vencimento e alteração de dados do pagador
+- Tecnologias: REST, Kafka, PostgreSQL
+- **Resultado:** APIs em produção para a gestão de títulos, aumento de recursos **+10 endpoints** fornecidos para manutenção dos títulos dos cooperados
 
-**Gerenciamento de Capacidade do Time** (2025 - Atual)
+**Gerenciamento de Capacidade do Time (2025)**
+
 - Coordenação paralela de múltiplos projetos regulatórios (70/30)
-- Ajustes da RESOLUÇÃO 457 e CNPJ Alfanumérico
-- Resultado: Execução simultânea de projetos críticos mantendo qualidade
+- **Resultado:** Entrega de 3 projetos críticos atrasados mais de um ano do planejado, alívio de carga do time e execução simultânea mantendo qualidade
 
-**Stack Tecnológica:** Java, Kotlin, Spring Boot, Spring Security, Kafka, Kubernetes, Docker, AWS (EC2, S3, RDS, Lambda), OpenTelemetry, Prometheus, Grafana, Loki, PostgreSQL, OracleDB
+**Ajustes da RESOLUÇÃO 457 e CNPJ Alfanumérico (2026)**
 
----
+- Implementação de ajustes regulatórios conforme RESOLUÇÃO 457
+- Implementação de suporte a CNPJ Alfanumérico
+- Conformidade com regulamentações bancárias
 
 ### Senior Software Engineer
-**Invillia** | Março 2022 - Abril 2025 | 📍 Remoto
 
-Desenvolvimento backend para clientes PagBank e PicPay, com soluções de alta escala e alta disponibilidade.
+**Invillia** | Março 2023 - Abril 2025 | Remoto
 
-**Principais Realizações:**
-- ✅ Desenvolvimento de microserviços em Kotlin e Spring Boot 3.2.2
-- ✅ Liderança técnica e mentoria de times de até 10 pessoas
-- ✅ APIs RESTful de alta disponibilidade
-- ✅ Implementação de arquitetura hexagonal (Ports and Adapters)
-- ✅ Event-Driven Architecture com Kafka
-- ✅ Cobertura de testes de 85%+ em projetos principais
+Construção de backend para clientes PagBank e PicPay, com soluções de alta escala e alta disponibilidade.
 
-**Projetos Notáveis:**
+#### Principais Responsabilidades
 
-**Jarvis – PagBank** (2023 - 2024)
-- Plataforma "plugin and play" para áreas de KYC, Fraude, Transações e PIX
-- Resultado: Otimização de **35% no tempo de atendimento operacional**
-- Stack: Java, Spring Boot, Kafka, Kubernetes
+- Implementação de microserviços em Kotlin e Spring Boot 3.2.2
+- Liderança técnica e mentoria de times de até 10 pessoas
+- APIs RESTful de alta disponibilidade
+- Implementação de arquitetura hexagonal (Ports and Adapters)
+- Event-Driven Architecture com Kafka
+- Cobertura de testes de **85%+** em projetos principais
 
-**Marketplace de Crédito PJ – PicPay** (2023 - 2024)
+#### Projetos Notáveis
+
+**Marketplace de Crédito PJ - PicPay (2023 - 2025)**
+
 - Plataforma conectando clientes a parceiros via balcão de ofertas
-- Resultado: Aumento de receita e redução de inadimplência
-- Stack: Java, Spring Boot, Kafka, AWS
+- Aumento de faturamento baseado em fee **na ordem de milhões** em 3 meses de implantação
+- Melhoria de exploração de BI da base PJ
+- Gestão final e cobrança ativa através de notificações no controle da inadimplência
+- **Resultado:** Aumento de receita **na ordem de milhões** em 3 meses, melhoria de BI e redução da inadimplência através de gestão ativa
 
-**Mesa de Cadastro Onboarding – PagBank** (2022 - 2023)
-- Construção/migração da Mesa de Cadastro Onboarding
-- Correção de inconsistências de base legada
+**Autorizador de Cartões Múltiplos PJ - PicPay (2023 - 2025)**
+
+- Sistema de autorização de cartões para pessoa jurídica
+- Integração com múltiplas bandeiras de cartão
+- Processamento de transações de alta escala
+- **Resultado:** Sistema crítico em produção para processamento de pagamentos PJ
+
+**Jarvis - PagBank (2023 - 2024)**
+
+- Plataforma plug-and-play para áreas de KYC, Fraude, Transações e PIX
+- **Resultado:** **Otimização de 35%** no tempo de atendimento operacional
+
+**Mesa de Cadastro Onboarding - PagBank (2022 - 2023)**
+
+- Construção e migração da Mesa de Cadastro Onboarding
+- Melhor gestão das validações biros e motores de crédito, fraude, risco, etc.
+- Simplificação do fluxo de onboarding
 - Validação e integridade de dados de clientes
-- Resultado: Redução significativa de inconsistências e melhoria na qualidade dos dados
-- Stack: Java, Spring Boot, Oracle Database
+- **Redução a quase zero** de problemas de compliance com reguladores
+- **Redução a quase zero** de acionamentos e chamados ao suporte relativos a problemas de cadastro
+- Inibição de contornos manuais
+- **Resultado:** Redução de inconsistências, melhoria da qualidade dos dados, **redução a quase zero** de problemas de compliance e acionamentos ao suporte
 
-**PIX – Gestão de Limites – PagBank** (2023)
-- Implementação de regras de limite transacional conforme regulatório BACEN
-- Stack: Java, Spring Boot, Oracle Database
+**Migração MARDA - PagBank (2023 - 2024)**
 
-**Stack Tecnológica:** Kotlin, Java 21, Spring Boot 3.2.2, Spring Security, Kafka, Kubernetes, Docker, AWS, MongoDB, PostgreSQL, Oracle Database, JUnit 5, MockK, Testcontainers, OpenTelemetry, Prometheus, Grafana, Loki
+- Migração dos dados da base legada do sistema MARDA (MongoDB) para Oracle
+- Descontinuação do sistema MARDA
+- **Resultado:** Migração bem-sucedida de dados legados (**ordem de milhões de registros**) e descontinuação do sistema legado
 
----
+### Software Engineer
 
-### Analista de Sistemas II
-**Banco Original** | Fevereiro 2021 - Agosto 2023 | 📍 Remoto
+**Banco Original** | Fevereiro 2021 - Março 2023 | Remoto
 
-Desenvolvimento e referência técnica em sistemas Core PIX, com foco em gestão de limites e favorecidos, sustentação e conformidade regulatória.
+Referência técnica e implementação de sistemas Core PIX, com foco em gestão de limites e favorecidos, sustentação e conformidade regulatória. Solução crítica e performática suportando requisições **na ordem de milhões**, com integrações com grandes players de processamento de pagamentos e suporte a produtos internos.
 
-**Principais Realizações:**
-- ✅ Referência técnica para sistema PIX, principalmente gestão de limites e favorecidos
-- ✅ Desenvolvimento de sistemas Core PIX com conformidade BACEN
-- ✅ Sustentação de sistemas críticos de operações financeiras
-- ✅ Otimização de arquitetura e performance de sistemas
-- ✅ **Aumento de performance de sistemas em 25%** por meio de otimizações arquiteturais
+#### Principais Responsabilidades
 
-**Projetos Destacados:**
+- Referência técnica para o sistema PIX, principalmente gestão de limites e favorecidos
+- Implementação de sistemas Core PIX com conformidade BACEN
+- Sustentação de sistemas críticos para operações financeiras
+- Otimização de arquitetura e performance de sistemas
+- Aumento de performance de sistemas em **25%** por meio de otimizações arquiteturais
+- Sistema entre os **TOP 10** dos tempos de transação PIX
 
-**PIX - Gestão de Limites Noturno** (2023)
-- Aplicação para cadastro e efetivação de limites transacionais do core PIX
+#### Projetos Destacados
+
+**Core PIX - Sistema de Transações (2021 - 2023)**
+
+- Sistema crítico e performático suportando requisições **na ordem de milhões**
+- Arquitetura distribuída orientada a eventos
+- Implementação de resiliência (retry, fallback) para alta disponibilidade
+- Integrações com grandes players de processamento de pagamentos
+- Suporte a produtos internos do banco
+- Sistema entre os **TOP 10** dos tempos de transação PIX
+- Atendimento a todas as demandas regulatórias BACEN
+- Incremento de produtos e automação do fluxo de devolução e estorno
+- Tecnologias: Java, Spring Boot, Spring Security, Kafka, Oracle Database, MongoDB, Pentaho, Python, AWS, Jenkins, Harness
+- **Resultado:** Solução crítica e performática em produção com alta disponibilidade. Aumento de performance de **25%** por meio de otimizações arquiteturais
+
+**PIX - Gestão de Limites Noturno (2023)**
+
+- Aplicação para cadastro e efetivação de limites transacionais do Core PIX
 - Sistema crítico para operações financeiras noturnas
-- Projeto regulatório Bacen com conformidade total
-- Stack: Java, Spring Boot, Oracle Database
-- Resultado: Sistema operacional em produção com alta disponibilidade
+- Projeto regulatório BACEN com conformidade total
+- Tecnologias: Java, Spring Boot, Oracle Database
+- **Resultado:** Sistema em produção com alta disponibilidade
 
-**URA - Unidade de Resposta Automática** (2021 - 2023)
-- Atualização e manutenção do sistema URA (Unidade de Resposta Automática)
-- Melhoria na experiência do cliente em atendimentos automatizados
-- Integração com sistemas core bancário
-- Stack: Java, Spring Boot, Oracle Database
-- Resultado: Sistema atualizado e otimizado em produção
+**PIX - Cadastro de Favorecidos (2021 - 2023)**
 
-**Motor de Análise de Crédito PF** (2021 - 2023)
+- Sistema de cadastro e gestão de favorecidos para transações PIX
+- Gestão de chaves PIX (CPF, CNPJ, email, telefone, chave aleatória)
+- Validação e integridade de dados de favorecidos
+- Integração com Core PIX para validação de transações
+- Conformidade com regulamentações BACEN
+- Tecnologias: Java, Spring Boot, Oracle Database
+- **Resultado:** Sistema crítico em produção para gestão de favorecidos PIX
+
+**URA - Unidade de Resposta Automática (2021 - 2023)**
+
+- Atualização e manutenção do sistema URA
+- Redução considerável na quantidade e no tempo de atendimento
+- Redução de chamadas abertas humanamente
+- Redução de **até 50%** do custo operacional para alguns produtos
+- Autonomia para o cliente e automações no fluxo de atendimento
+- Gestão mais inteligente dos recursos
+- Desafogamento de atendentes e times
+- Integração com sistemas Core bancário
+- Tecnologias: Java, Spring Boot, Oracle Database
+- **Resultado:** Sistema otimizado e em produção com impacto significativo na redução de custos operacionais
+
+**Motor de Análise de Crédito PF (2021 - 2023)**
+
 - Atualização do motor de análise de crédito para Pessoa Física
-- Implementação e melhoria de regras de análise de crédito
-- Otimização de processos de avaliação de risco
-- Integração com sistemas de crédito e scoring
-- Stack: Java, Spring Boot, Oracle Database, PL/SQL
-- Resultado: Sistema atualizado com melhor performance e precisão na análise de crédito
+- Aumento da precisão de score do motor de crédito
+- Integração com soluções terceiras para gestão do risco de crédito
+- Reclassificação da base de dados (ordem de **milhões**)
+- Redução inicial de **cerca de 20%** de registros com alto risco na oferta de crédito
+- Reenquadramento da oferta de crédito baseado em outras variáveis que sensibilizam risco
+- Implementação de criptografia e rotação de chaves para transitar dados sensíveis entre diferentes estruturas
+- Tecnologias: Java, Spring Boot, Oracle Database, PL/SQL, Criptografia, Rotação de Chaves, GCP (Google Cloud Platform)
+- **Resultado:** Melhoria significativa na precisão do score, **redução de 20%** de registros com alto risco e gestão mais eficiente do risco de crédito. Trabalho executado em nuvem GCP com arquitetura distribuída e orientada a eventos
 
-**Stack Tecnológica:** Java, Spring Boot, Spring Batch, Kafka, Oracle Database, PL/SQL
+### Software Engineer
 
----
+**IVIA / Wipro** | Fevereiro 2018 - Fevereiro 2021 | Fortaleza, CE
 
-### Desenvolvedor de Sistemas
-**IVIA / Wipro** | Fevereiro 2018 - Fevereiro 2021 | 📍 Fortaleza, CE
+Atuação no setor de saúde, alocado ao cliente Hapvida (uma das maiores operadoras de saúde do Brasil).
 
-Atuação no setor de saúde, alocado no cliente Hapvida (uma das maiores operadoras de saúde do Brasil).
+#### Principais Responsabilidades
 
-**Principais Realizações:**
-- ✅ Desenvolvimento de sistemas críticos para operações de saúde
-- ✅ Manutenção e desenvolvimento de sistemas corporativos
-- ✅ Desenvolvimento Android nativo
-- ✅ **Melhorias que impactaram positivamente mais de 1 milhão de usuários**
+- Implementação de sistemas críticos para operações de saúde
+- Manutenção e construção de sistemas corporativos
+- Criação de aplicações Android nativas
+- Melhorias que impactaram positivamente mais de um milhão de usuários
 
-**Stack Tecnológica:** Java, Spring Boot, PL/SQL, Oracle Forms, Oracle Reports, Android Nativo, Oracle Database
+#### Projetos Destacados
 
----
+**Sistema de Frequência de Usuários em Turmas de Exercícios (2018 - 2021) +1k**
 
-### Desenvolvedor Freelance / Projetos Pessoais
-**Projetos Independentes** | 2025 - Atual | 📍 Remoto
+- Aplicação mobile Android e backend com mais de **1 milhão** de usuários
+- Objetivo: prover dados de frequência de usuários em turmas de exercícios distribuídos a nível municipal, expandido para nível nacional
+- Geração de insights mais inteligentes para gestão de saúde
+- Melhoria na relação médico-paciente
+- Impacto real na qualidade de vida dos usuários
+- Redução de custos com medicamentos e acionamento emergencial e de risco alto (**10% a 15%** mensalmente)
+- Desafogamento de filas de atendimento
+- Redução de custos com exames e acionamentos jurídicos
+- Tecnologias: Java, Spring Boot, Android nativo, Oracle Database, Oracle Forms, Oracle Reports, PL/SQL, IoT, Classificação Biométrica
+- **Resultado:** Redução considerável na quantidade e no tempo de atendimento. Cerca de **20 a 30 pacientes** com frequência nas aulas reduziram a **0 internações** e **+500** regrediu o estado pré-hipertensão, refletindo também na redução de custos. Sistema em produção com impacto significativo na qualidade de vida e redução de custos operacionais
 
-Desenvolvimento de soluções completas em arquitetura de microserviços, implementando boas práticas de arquitetura, testes e infraestrutura como código.
+**Incor Criança - Corrida Beneficente (2018 - 2021)**
 
-**Principais Realizações:**
-- ✅ Desenvolvimento de plataforma completa de gestão de rifas em arquitetura distribuída
-- ✅ Implementação de arquitetura hexagonal profissionalmente
-- ✅ Cobertura de testes de 85%+ em microserviços principais
-- ✅ Infraestrutura completa de desenvolvimento local com Kubernetes
-- ✅ Autenticação JWT com integração Keycloak
-- ✅ Interface web moderna com Next.js 15 e React 19
+- Parceria entre IVIA, Beachpark e Incor Criança para promover corrida beneficente em prol do Incor Criança
+- Sistema web para gestão e inscrições da corrida beneficente
+- Frontend desenvolvido em React
+- Backend desenvolvido em C# .NET Core, posteriormente migrado para Java
+- Tecnologias: React, C# .NET Core, Java, Spring Boot
+- **Resultado:** Sistema em produção apoiando evento beneficente de grande impacto social
 
-**Projetos Principais:**
+**Sistema de Gestão de Ponto - IVIA (2018 - 2021)**
 
-**Raffle Management Platform - Gestão de Rifas** (2025 - Atual)
-- Plataforma completa de gerenciamento de rifas em arquitetura distribuída
-- Arquitetura Hexagonal (Ports and Adapters) implementada profissionalmente
-- Event-Driven Architecture com eventos de domínio via Kafka
-- Controle de rifas, reservas, compras e desistências
-- Reprocessamento idempotente com timeline de status, CDC, retry e DLT supervisionada
-- **Cobertura de testes: 85%**
-- Stack: Kotlin, Spring Boot 3.2.2, Java 21, MongoDB, Kafka, Keycloak, OpenTelemetry
+- Manutenção da ferramenta de ponto com integração de novas funcionalidades
+- Implementação de geolocalização para registro de ponto via celular
+- Aumento da segurança e diminuição do risco de fraude
+- Gestão educacional de práticas relacionadas a conduta sobre o ponto
+- Desenvolvimento de relatórios para gestão de ponto
+- Melhoria contínua do sistema de controle de ponto
+- Tecnologias: Java, Spring Boot, Android nativo, Geolocalização, Oracle Database, Oracle Forms, Oracle Reports, PL/SQL
+- **Resultado:** Diminuição significativa de **mais de 30%** de reclamações de atrasos e ausências. Banco de horas muito mais preciso, reduzindo a quantidade de horas extras a serem abonadas. Sistema em produção com melhorias contínuas, maior segurança, redução de fraudes e gestão educacional de conduta
 
-**MS Auth Core Service** (2025 - Atual)
-- Autenticação JWT com TTL e auto-renovação
-- Integração com Keycloak para autenticação JWT
-- Arquitetura hexagonal implementada
-- **218 testes** executados com sucesso (0 falhas)
-- Stack: Kotlin, Spring Boot 3.2.2, Java 21, MongoDB, MapStruct
+## COMPETÊNCIAS TÉCNICAS
 
-**MS Raffle Web UI** (2025 - Atual)
-- Interface web moderna e responsiva
-- **50+ testes** automatizados (Jest, React Testing Library)
-- Gerenciamento de estado com Zustand
-- Integração com APIs RESTful
-- Stack: Next.js 15, React 19, TypeScript, Tailwind CSS 4, Zustand
+### Linguagens de Programação
 
-**Local Development Infrastructure** (2025)
-- Infraestrutura completa para desenvolvimento local
-- Kubernetes (Minikube) com Docker
-- Serviços: MongoDB, Keycloak, Kafka, SonarQube, LocalStack
-- Scripts de automação e documentação completa (600+ linhas)
-- Helm Charts e Kubernetes Manifests
+- **Kotlin (Avançado)** - Scope functions, composição funcional
+- **Java (Avançado)** - Java 8, 11, 17, 21
+- **C# .NET Core**
+- **Python** - Principalmente scripting, Visão Computacional (projeto acadêmico) e projetos pontuais
+- **TypeScript, JavaScript, PL/SQL, Node.js**
 
-**Motor de Processamento de Documentos** (2025 - Atual)
-- Sistema para extração automática de dados de formulários PDF e OCR
-- Processamento automatizado de documentos
-- Stack: Kotlin, MongoDB
+### Frameworks e Bibliotecas
 
-**Stack Tecnológica:** Kotlin, Java 21, Spring Boot 3.2.2, Spring Security, Next.js 15, React 19, TypeScript, MongoDB, Kafka, Keycloak, Kubernetes, Docker, OpenTelemetry, Prometheus, Grafana, Loki, JUnit 5, MockK, Testcontainers, Jest, React Testing Library
-
----
-
-## 🛠️ Competências Técnicas
-
-### Linguagens e Frameworks
-**Backend:**
-- **Kotlin** (Avançado) - Scope functions, composição funcional
-- **Java** (Avançado) - Java 8, 11, 17, 21
-- **TypeScript** | **JavaScript** | **Python** | **PL/SQL**
-
-**Frameworks:**
-- **Spring Boot** (2.x, 3.2.2)
-- **Spring Security**
-- **Spring Data MongoDB/JPA**
-- **Spring Batch**
-- **Next.js 15** | **React 19**
+- **Backend:** Spring Boot (2.x, 3.2.2), Spring Security, Spring Data MongoDB/JPA, Spring Batch, Hibernate, MapStruct, .NET Core, Node.js
+- **Frontend:** Next.js 15, React 19, Tailwind CSS 4, Zustand
 
 ### Arquitetura e Padrões
-- **Arquitetura Hexagonal** (Ports and Adapters) - Implementação profissional
-- **Event-Driven Architecture**
-- **Microserviços**
-- **Domain-Driven Design (DDD)**
-- **Clean Architecture**
-- **CQRS** | **Event Sourcing**
+
+- Arquitetura Hexagonal (Ports and Adapters)
+- Event-Driven Architecture (Arquitetura Orientada a Eventos)
+- Arquitetura Distribuída
+- Microserviços
+- Monolíticos
+- Domain-Driven Design (DDD)
+- Clean Architecture
+- CQRS, Event Sourcing
+- RESTful APIs, gRPC
+- Resiliência (Retry, Fallback)
 
 ### Infraestrutura e DevOps
+
 - **Kubernetes** (Minikube, Helm Charts, Manifests)
-- **Docker** | **Docker Compose**
+- **Docker, Docker Compose**
 - **AWS** (EC2, S3, RDS, Lambda)
-- **Gradle** | **Maven**
-- **Git** | **GitHub** | **GitLab**
+- **GCP** (Google Cloud Platform)
+- **Gradle, Maven**
+- **Git, GitHub, GitLab**
 
 ### Mensageria e Eventos
-- **Kafka** (CDC, Outbox, DLT, Retry, TTL)
+
+- **Apache Kafka** (CDC, Outbox, DLT, Retry, TTL)
 - **RabbitMQ**
+- **SNS e SQS** (AWS)
 
 ### Banco de Dados
-- **MongoDB** | **PostgreSQL**
-- **Oracle Database** | **MySQL**
+
+- **NoSQL:** MongoDB, Redis
+- **SQL:** PostgreSQL, Oracle Database, MySQL
+- **PL/SQL** (Procedures, Functions, Triggers)
+
+### Ferramentas de BI e ETL
+
+- **Pentaho**
+
+### Tecnologias Especializadas
+
+- **IoT** (Internet of Things)
+- **Classificação Biométrica**
+- **Geolocalização**
 
 ### Observabilidade e Monitoramento
-- **OpenTelemetry** | **Prometheus**
-- **Grafana** | **Loki**
-- **Micrometer** | **Jaeger**
+
+- **OpenTelemetry, Prometheus**
+- **Grafana, Loki**
+- **Micrometer, Jaeger**
 
 ### Testes e Qualidade
-- **JUnit 5** | **MockK**
-- **Testcontainers** | **Jest**
-- **React Testing Library** | **JaCoCo**
+
+- **JUnit 5, MockK**
+- **Testcontainers, Jest**
+- **React Testing Library, JaCoCo**
 - **SonarQube**
+- **TDD** (**85%+ cobertura**)
 
 ### CI/CD
+
 - **GitHub Actions**
 - **Azure DevOps**
 - **Jenkins**
+- **Harness**
 
 ### Segurança
-- **Keycloak** | **OAuth2**
-- **JWT** | **Spring Security**
 
----
+- **Keycloak, OAuth2**
+- **JWT, Spring Security**
+- **Criptografia, Rotação de Chaves**
 
-## 📊 Principais Conquistas e Métricas
+## PRINCIPAIS CONQUISTAS E MÉTRICAS
 
 ### Performance e Escalabilidade
-- ✅ Sistemas de alta escala e alta disponibilidade (PagBank/PicPay)
-- ✅ APIs RESTful com alta disponibilidade
-- ✅ **Aumento de performance de 25%** através de otimizações arquiteturais (Banco Original)
-- ✅ **Otimização de 35% no tempo de atendimento operacional** (Jarvis - PagBank)
-- ✅ Impacto positivo em **mais de 1 milhão de usuários** (Hapvida)
+
+- Sistemas de alta escala e alta disponibilidade (PagBank/PicPay) transacionais **ordem de milhões de requisições**
+- APIs RESTful com alta disponibilidade com tempos de resposta **menos de 500ms**
+- Sistema Core PIX suportando requisições **na ordem de milhões** (Banco Original)
+- Sistema entre os **TOP 10** dos tempos de transação PIX (Banco Original)
+- Aumento de performance de **25%** por meio de otimizações arquiteturais (Banco Original)
+- **Otimização de 35%** no tempo de atendimento operacional (Jarvis - PagBank)
+- Impacto positivo em mais de um milhão de usuários (Hapvida)
 
 ### Qualidade de Código
-- ✅ **Cobertura de testes de 85%+** em microserviços principais
-- ✅ **218 testes** executados com sucesso (0 falhas) no ms-auth-core-service
-- ✅ Implementação de **arquitetura hexagonal** profissional
-- ✅ Code review rigoroso e mentoria técnica
+
+- Expertise em testes automatizados, inclusive carga, métricas relacionadas executados com sucesso
+- Cobertura de testes de **85%+** em microserviços principais
+- Code review rigoroso e mentoria técnica
 
 ### Arquitetura e Infraestrutura
-- ✅ Migração de serviços para **Kubernetes** em produção
-- ✅ Implantação de **observabilidade completa** (OpenTelemetry, Prometheus, Grafana, Loki)
-- ✅ Governança de microsserviços e padronização arquitetural
-- ✅ **Event-Driven Architecture** implementada com Kafka
 
----
+- Migração de serviços para Kubernetes em produção (Unicred)
+- Observabilidade completa (OpenTelemetry, Prometheus, Grafana, Loki)
+- Governança de microsserviços e padronização arquitetural
+- Event-Driven Architecture com Kafka
 
-## 🎓 Formação Acadêmica
+### Impacto Operacional e Redução de Custos
+
+- Redução de **até 50%** do custo operacional com sistema URA (Banco Original)
+- Redução considerável na quantidade e no tempo de atendimento
+- Automação de fluxos de devolução e estorno (Core PIX - Banco Original): diminuição de **1 dia para menos de uma hora** do fluxo de estorno de PIX represados
+- Desafogamento de atendentes e times com automação inteligente
+- Integrações com grandes players de processamento de pagamentos: volume acima de **milhões** tanto em requisições quanto em valor
+- Redução de **10% a 15%** mensalmente em custos com medicamentos e acionamento emergencial (IVIA/Hapvida)
+- Redução de custos com exames e acionamentos jurídicos (IVIA/Hapvida)
+- Desafogamento de filas de atendimento (IVIA/Hapvida)
+- Melhoria na relação médico-paciente e impacto na qualidade de vida (IVIA/Hapvida)
+- Diminuição de **mais de 30%** de reclamações de atrasos e ausências (Sistema de Gestão de Ponto - IVIA)
+- Redução da quantidade de horas extras a serem abonadas com maior precisão do banco de horas (IVIA)
+- **Redução de 20%** de registros com alto risco na oferta de crédito (Motor de Análise de Crédito PF - Banco Original)
+- Aumento da precisão de score e reclassificação de base de dados **na ordem de milhões** (Banco Original)
+- Aumento de faturamento **na ordem de milhões** em 3 meses (Marketplace de Crédito PJ - PicPay)
+
+## EDUCAÇÃO
 
 ### MBA em Arquitetura Full Cycle
-**Previsão de Conclusão:** Agosto 2026
+
+Previsão de Conclusão: Agosto 2026
 
 ### Bacharel em Engenharia de Computação
-**Instituto Federal de Educação, Ciência e Tecnologia do Ceará – Campus Fortaleza**  
+
+Instituto Federal de Educação, Ciência e Tecnologia do Ceará - Campus Fortaleza
+
 Conclusão: 2020
 
----
+## CERTIFICAÇÕES E CURSOS
 
-## 🏆 Certificações e Cursos
-
-- **Especialista Spring REST** – Algaworks, 2023
-- **DevOpsPro** – Fabrício Veronez, 2023
+- **Especialista Spring REST** - Algaworks, 2023
+- **DevOpsPro** - Fabrício Veronez, 2023
 - **AI-Assisted Certified Professional**, 2023
-- **AceleraDev Java** – Codenation, 2020
-- **Oracle PL/SQL Procedures, Functions, Triggers** – Udemy, 2020
-- **CCNA** – Cisco, 2018
-- **SCF (Scrum Fundamentals)** – Scrum Study, 2019
+- **AceleraDev Java** - Codenation, 2020
+- **Oracle PL/SQL Procedures, Functions, Triggers** - Udemy, 2020
+- **CCNA** - Cisco, 2018
+- **SCF (Scrum Fundamentals)** - Scrum Study, 2019
 
----
+## IDIOMAS
 
-## 💡 Soft Skills
+- **Português:** Nativo
+- **Inglês:** Intermediário
+- **Espanhol:** Básico
 
-- **Liderança Técnica:** Liderança de equipes multidisciplinares, mentoria contínua
-- **Comunicação:** Tradução clara entre necessidades de negócio e soluções técnicas
-- **Qualidade:** Rigor técnico, foco em custo, desempenho e simplicidade (KISS, YAGNI)
-- **Resiliência:** Alta capacidade de adaptação e trabalho sob pressão em sistemas críticos
-- **Orientação a Resultados:** Foco em entregas consistentes e melhoria contínua
+## SOFT SKILLS
 
----
+- **Liderança Técnica:** Equipes multidisciplinares (time de até 10 pessoas) e mentoria
+- **Comunicação:** Tradução entre necessidades de negócio e soluções técnicas
+- **Qualidade:** Rigor técnico, foco em desempenho e simplicidade
+- **Resiliência:** Adaptação e trabalho sob pressão em sistemas críticos
+- **Orientação a Resultados:** Entregas consistentes e melhoria contínua
 
-## 🚀 Tecnologias
+## PALAVRAS-CHAVE TÉCNICAS
 
-**Arquitetura e Padrões:** Microservices, Event-Driven Architecture, Hexagonal Architecture, Clean Architecture, Domain-Driven Design (DDD), CQRS, Event Sourcing, RESTful APIs, gRPC, API Gateway, Service Mesh, Distributed Systems, Scalable Systems, High Availability, Fault Tolerance, Resilience Patterns
+**Arquitetura:** API Gateway, Scalable Systems, High Availability, Fault Tolerance, Resilience Patterns, Distributed Systems, CQRS, Event Sourcing
 
-**Linguagens e Frameworks:** Kotlin, Java, Java 8, Java 11, Java 17, Java 21, TypeScript, JavaScript, Python, PL/SQL, Node.js, Spring Boot, Spring Framework, Spring Security, Spring Data, Spring Batch, Next.js, React, React 19, Hibernate, MapStruct
+**Linguagens:** Java 8, Java 11, Java 17, Java 21, C# .NET Core, ASP.NET Core
 
-**Backend e APIs:** Backend Development, REST APIs, GraphQL, Web Services, SOA, Service-Oriented Architecture, API Design, API Development, Microservices Development, Server-Side Development
+**Frameworks:** Spring Framework, ASP.NET Core
 
-**Mensageria e Eventos:** Apache Kafka, Kafka Streams, CDC (Change Data Capture), Outbox Pattern, Dead Letter Topic (DLT), Event Streaming, Message Queues, RabbitMQ, Event Sourcing, CQRS
+**Backend:** GraphQL, Web Services, SOA, Service-Oriented Architecture, API Design, Server-Side Development
 
-**Banco de Dados:** MongoDB, PostgreSQL, Oracle Database, MySQL, SQL, NoSQL, Database Design, Database Optimization, PL/SQL, JPA, Hibernate, Database Migrations
+**Mensageria:** Kafka Streams, Event Streaming, Message Queues
 
-**Infraestrutura e Cloud:** Kubernetes, Docker, Docker Compose, Container Orchestration, AWS (EC2, S3, RDS, Lambda), Cloud Computing, Infrastructure as Code (IaC), Helm Charts, Minikube, LocalStack, GCP, OpenShift
+**Banco de Dados:** Database Design, Database Optimization, Database Migrations, JPA
 
-**DevOps e CI/CD:** CI/CD, Continuous Integration, Continuous Deployment, GitHub Actions, Azure DevOps, Jenkins, Git, GitLab, Gradle, Maven, Build Automation, Deployment Automation
+**Infraestrutura:** Container Orchestration, Cloud Computing, Infrastructure as Code, IaC, OpenShift, LocalStack
 
-**Observabilidade e Monitoramento:** OpenTelemetry, Distributed Tracing, Prometheus, Grafana, Loki, Metrics, Logging, Monitoring, Observability, Jaeger, Splunk, Kibana, Dynatrace, Micrometer, Actuator
+**DevOps:** Build Automation, Deployment Automation
 
-**Testes e Qualidade:** Unit Testing, Integration Testing, Test-Driven Development (TDD), JUnit 5, MockK, Testcontainers, Jest, React Testing Library, Code Coverage, SonarQube, JaCoCo, Quality Assurance, Code Review
+**Observabilidade:** Distributed Tracing, Metrics, Logging, Monitoring, Observability, Splunk, Kibana, Actuator
 
-**Segurança:** OAuth2, JWT, Keycloak, Spring Security, Authentication, Authorization, RBAC, Security Best Practices, API Security
+**Testes:** Unit Testing, Integration Testing, Code Coverage, Quality Assurance
 
-**Metodologias Ágeis:** Agile, Scrum, Kanban, Sprint Planning, Retrospectives, Pair Programming, Code Review, Technical Leadership, Mentoring
+**Segurança:** RBAC, Security Best Practices, API Security
 
-**Frontend:** Frontend Development, React Development, Next.js Development, TypeScript, JavaScript, Tailwind CSS, Zustand, State Management, Responsive Design, UI/UX
+**Metodologias:** Sprint Planning, Retrospectives, Pair Programming
 
-**Outras Competências:** Functional Programming, Object-Oriented Programming, SOLID Principles, Clean Code, Refactoring, Performance Optimization, System Design, Technical Documentation, Problem Solving, Leadership, Mentoring
+**Frontend:** Frontend Development, React Development, Next.js Development, State Management, Responsive Design, UI/UX
 
----
+**Outras:** Functional Programming, Object-Oriented Programming, SOLID Principles, Clean Code, Refactoring, Performance Optimization, System Design, Technical Documentation, Problem Solving
 
-## 📞 Contato
+## PALAVRAS TÉCNICAS PARA FUNÇÃO/POSIÇÃO
 
-**📞 Telefone:** +55 (85) 98951-6188  
-**📧 Email:** sgavsnake@gmail.com  
-**💼 LinkedIn:** [linkedin.com/in/andre-vieira-da-silva](https://www.linkedin.com/in/andre-vieira-da-silva)  
-**🔗 GitHub:** [github.com/engcomAndre](https://github.com/engcomAndre)  
-**📍 Localização:** Fortaleza, Ceará, Brasil
-
----
-
-*Última atualização: Janeiro 2025*
+Technical Lead, Backend Developer, Java Developer, Kotlin Developer, Software Architect, Systems Analyst, Systems Developer, Technical Leadership, Senior Developer, Pleno Developer, Microservices Architect, Event-Driven Architecture Specialist, Full Stack Developer, Backend Specialist, Engineering Lead, Lead Developer, Senior Backend Engineer, Backend Engineer, Software Developer, Application Developer, Solutions Architect, Technical Specialist
